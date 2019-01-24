@@ -71,6 +71,7 @@ def sum_cosines(n):
         total = total + math.cos(k)
     return total
 
+
 def run_test_sum_square_roots():
     """ Tests the   sum_square_roots   function. """
     # -------------------------------------------------------------------------
@@ -101,6 +102,7 @@ def run_test_sum_square_roots():
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
+
 def sum_square_roots(n):
     """
     What comes in:  A non-negative integer n.
@@ -126,6 +128,7 @@ def sum_square_roots(n):
     for k in range(1, n+1):
         total = total + (math.sqrt(2*k))
     return total
+
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
